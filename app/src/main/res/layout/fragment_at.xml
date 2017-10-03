@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.denis_dembe.mycentramktapp.AtFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Wondeful Dressing in the our Market "
+        android:textSize="22sp"
+        android:textColor="#0925f2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Jampers and other dressing "
+        android:textSize="20sp"
+        android:textColor="#101112"
+        android:layout_marginTop="40dp"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="200dp"
+        android:layout_height="133dp"
+        app:srcCompat="@drawable/jamper"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="1dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/dresses"
+        android:layout_marginLeft="195dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignTop="@+id/imageView1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shoes F and M "
+        android:textSize="20sp"
+        android:textColor="#101112"
+        android:layout_marginTop="320dp"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/shoes"
+        android:layout_marginTop="350dp"/>
+
+
+</RelativeLayout>
+

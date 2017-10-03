@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.denis_dembe.mycentramktapp.FoodFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Wondeful Foods"
+        android:textSize="20sp"
+        android:textColor="#0925f2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Matooke "
+        android:textSize="20sp"
+        android:textColor="#101112"
+        android:layout_marginTop="40dp"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mtoke"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="5dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        app:srcCompat="@drawable/matokee"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="205dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sweetpotatoes "
+        android:textSize="20sp"
+        android:textColor="#101112"
+        android:layout_marginTop="220dp"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="133dp"
+        app:srcCompat="@drawable/images"
+        android:layout_marginTop="240dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cabages "
+        android:textSize="20sp"
+        android:textColor="#101112"
+        android:layout_marginTop="390dp"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cabg"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="5dp"/>
+</RelativeLayout>
